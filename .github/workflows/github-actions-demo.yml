@@ -1,4 +1,4 @@
-name: GitHub Aciotns Demo
+name: GitHub Actions Demo
 on:
   push:
     branches:
