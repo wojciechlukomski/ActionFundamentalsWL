@@ -11,6 +11,11 @@ on:
   schedule:
     - cron: '15 6 * * 0'  # Every Sunday at 6:15 UTC
   workflow_dispatch:  # Manual trigger
+     inputs:
+      environment:
+        description: 'Environment to deploy to'
+        type: environment
+        required: true
 
 jobs:
   Build:
